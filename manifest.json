@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "newtab C_K",
+  "version": "1.0",
+  "description": "C_K SEARCH...",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [],
+  "host_permissions": [
+    "https://suggestqueries.google.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["script.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
