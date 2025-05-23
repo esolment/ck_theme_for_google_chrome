@@ -1,0 +1,1 @@
+window.location.href = chrome.runtime.getURL('index.html'); // Перенаправляем на index.html

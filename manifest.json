@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "newtab C_K",
+  "name": "ㅤ",
   "version": "1.0",
   "description": "C_K SEARCH...",
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "newtab.html"
   },
   "chrome_url_overrides": {
-    "newtab": "index.html"
+    "newtab": "newtab.html"
   },
   "permissions": [],
   "host_permissions": [
